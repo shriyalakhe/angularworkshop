@@ -6,5 +6,14 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'myApp';
+  
+  amount=0;
+  interest=0;
+  tenure=0;
+  emi=0;
+
+  calculate_emi()
+  {
+    this.result=this.num1 + this.num2 ;
+  }
 }
